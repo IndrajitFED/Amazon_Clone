@@ -6,8 +6,6 @@
 - Node & Express: Web API, Body Parser, File Upload, JWT
 - MongoDB: Mongoose, Aggregation
 - Development: ESLint, Babel, Git, Github,
-- Deployment: Heroku
-- Watch React & Node Tutorial
 
 ### 1. Setup MongoDB
  - Download and Install it from [mongodb.com](https://www.mongodb.com/try/download/community)
