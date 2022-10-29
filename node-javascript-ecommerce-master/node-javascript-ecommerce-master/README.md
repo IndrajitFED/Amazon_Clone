@@ -1,6 +1,5 @@
 # AMAZON CLONE 
 # ECommerce Website
-![amazona](/frontend/images/jsamazona.jpg)
 
 - HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
 - JavaScript: ES6+, Array Functions, Rendering System
@@ -10,12 +9,10 @@
 - Deployment: Heroku
 - Watch React & Node Tutorial
 
-## Run Locally
-
-### 2. Setup MongoDB
+### 1. Setup MongoDB
  - Download and Install it from [mongodb.com](https://www.mongodb.com/try/download/community)
 
-### 3. Create .env file
+### 2. Create .env file
 - Create .env file in project folder
 - Enter these lines to that:
 
@@ -25,7 +22,7 @@ JWT_SECRET=somethingsecret
 PAYPAL_CLIENT_ID="your paypal client id" or sb
 ```
 
-### 4. Run Backend
+### 3. Run Backend
 
 ```
 $ npm install
@@ -33,7 +30,7 @@ $ npm run build
 $ npm start
 ```
 
-### 5. Run Frontend
+### 4. Run Frontend
 
 ```
 # open new terminal
@@ -42,12 +39,12 @@ $ npm install
 $ npm start
 ```
 
-### 6. Create Admin User
+### 5. Create Admin User
 
 - Run this on chrome: http://localhost:5000/api/users/createadmin
 - Note admin email and password
 
-### 7. Admin Login
+### 6. Admin Login
 
 - Run http://localhost:8080/#/signin
 - Enter admin email and password and click signin
